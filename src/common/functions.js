@@ -1,4 +1,3 @@
-const { response } = require("express");
 const ImageKit = require("imagekit");
 
 const imagekit = new ImageKit({
