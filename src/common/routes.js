@@ -7,7 +7,7 @@ const { getFolderImage, getOneImage } = require("./functions");
 // userRouter.get("/users/getAll", getUsers);
 
 // get images from folder
-pictureRouter.get("/getImages", getFolderImage);
+pictureRouter.post("/getImages", getFolderImage);
 
 // get single image
 pictureRouter.get("/getOneImage", getOneImage);

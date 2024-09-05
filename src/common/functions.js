@@ -12,6 +12,7 @@ const getFolderImage = async (req, res) => {
     const myImages = await imagekit.listFiles({
       path: "nails_gallery",
       limit: req.body.limit,
+      skip: req.body.skip,
     });
     //
     console.log(myImages);
